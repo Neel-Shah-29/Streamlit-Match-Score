@@ -3,7 +3,7 @@ import openai
 import json
 
 # Initialize OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'OPENAI_API_KEY'
 openai_params = {"model":"gpt-4-1106-preview",
                  "temperature":0.7,
                  "frequency_penalty":0.0,
